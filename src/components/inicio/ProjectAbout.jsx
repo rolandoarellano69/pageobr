@@ -5,11 +5,9 @@ import Link from 'next/link'
 function ProjectAbout() {
   return (
     <main>
-
-
       {/* Aureo*/}
 
-      <div className=' relative w-full h-screen bg-[#262724]'>
+      <div className=' relative w-full h-[80vh] bg-[#262724]'>
         <Image src='/ACCESO AUREO2 nochr.png'
           alt='Imagen1'
           fill className='object-cover'

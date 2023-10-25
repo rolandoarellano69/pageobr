@@ -4,6 +4,7 @@ import CardAbout from '@/components/inicio/CardAbout'
 import ExpCard from '@/components/inicio/ExpCard'
 import Hero from '@/components/inicio/Hero'
 import ProjectAbout from '@/components/inicio/ProjectAbout'
+import ProjectAbout2 from '@/components/inicio/ProjectAbout2';
 import ProjectEx from '@/components/inicio/ProjectEx'
 import React from 'react'
 
@@ -14,7 +15,8 @@ function Home() {
       <Hero />
       <CardAbout />
       <ExpCard />
-      <ProjectAbout />
+      <ProjectAbout2/>
+      {/* <ProjectAbout /> */}
       <Banner1 />
       <ProjectEx />
     </main>
