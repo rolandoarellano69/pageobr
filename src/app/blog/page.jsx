@@ -1,12 +1,15 @@
-import React from 'react'
 
-function Blogpage
-  () {
+import Link from "next/link"
+
+export default function Blogpage() {
+
   return (
-    <div>Blogpage
-
-    </div>
+    <main className="flex flex-col items-center justify-center min-h-screen p-4 text-gray-900">
+     
+      blog
+      
+    </main>
   )
 }
 
-export default Blogpage
+

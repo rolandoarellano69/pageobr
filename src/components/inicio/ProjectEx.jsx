@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
-
 function ProjectEx() {
   return (
     <section className="bg-white  md:p-8 py-12">

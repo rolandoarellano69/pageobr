@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Banner1() {
   return (
     
-    <div className=' container mx-auto relative w-full h-96 bg-gray-200'>
+    <div className=' relative w-full h-96 bg-gray-200'>
     <div className="relative w-full h-full">
       <Image src='/TJ.jpg' alt='Imagen1' fill className='object-cover' />
       <div className="absolute inset-0 bg-primary opacity-80"></div>
