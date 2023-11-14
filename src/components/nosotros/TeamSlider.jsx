@@ -40,23 +40,26 @@ function TeamSlider() {
       >
 
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/GLADDYS-ACOSTA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div>
         </SwiperSlide>
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/FEDERICO-ARMENTA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div></SwiperSlide>
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/MARÍA-ELENA-MONTAÑO_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div></SwiperSlide>
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/NESTOR-CORTÉS.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div></SwiperSlide>
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div></SwiperSlide>
         <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/9439685.jpg" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+          <img src="/ROGELIO-GARCÍA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
+        </div></SwiperSlide>
+        <SwiperSlide><div className='flex flex-col justify-center items-center'>
+          <img src="/CESAR-JIMÉNEZ_Mesa-de-trabajo-1 (1).webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
         </div></SwiperSlide>
       </Swiper>
     </div>

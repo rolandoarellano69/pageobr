@@ -49,7 +49,7 @@ function ProjectAbout2() {
       </section>
 
     ))}
-    <section className=" ">
+    <section className=" p-4 md:p-8 ">
       <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
         <div className="relative h-[40vh] md:h-[60vh]">
           <Image

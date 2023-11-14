@@ -94,9 +94,9 @@ const InteriorSlider = () => {
         }}
         className="mySwiper p-6 md:p-0"
       >
-        {['recamara_Mesa de trabajo 1', 'cocina 2_Mesa de trabajo 1', 'cocina_Mesa de trabajo 1', 'recamara_Mesa de trabajo 1', 'sala_Mesa de trabajo 1'].map((image, index) => (
+        {['recamara_Mesa de trabajo 1', 'cocina 2_Mesa de trabajo 1', 'cocina_Mesa de trabajo 1', 'sala_Mesa de trabajo 1', 'baño_Mesa de trabajo 1'].map((image, index) => (
           <SwiperSlide key={index}>
-            <div className='flex flex-col justify-center items-center' onClick={() => openModal(`/${image}.webp`)}>
+            <div className='flex flex-col justify-center items-center ' onClick={() => openModal(`/${image}.webp `)}>
               <img src={`/${image}.webp`} alt="Interior" width={600} height={600} className='object-cover rounded-lg shadow-lg' />
             </div>
           </SwiperSlide>

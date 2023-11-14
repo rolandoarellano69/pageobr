@@ -5,7 +5,7 @@ import Image from 'next/image'
 function ProjectCard({imageSrc, logoSrc, title, description, price, linkHref}) {
   return (
     <article className="rounded-xl overflow-hidden shadow-lg bg-blue-300">
-      <div className="relative h-[40vh] md:h-[60vh]">
+      <div className="relative h-[40vh] md:h-[72vh]">
         <Image
           src={imageSrc}
           alt={`Vista de ${title}`}
