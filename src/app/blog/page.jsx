@@ -42,7 +42,7 @@ const HomePage = () => {
         <BlogCard
           date="20 May 2021"
           CardTitle="¿SABES CUANTO TE PRESTA INFONAVIT?"
-          CardDescription="PODRÍAS ESTAR PERDIENDO LA OPORTUNIDAD DE COMPRAR TU CASA."
+          CardDescription="Podrías estar perdiendo la oportunidad de comprar tu casa."
           imagen="/3.jpg"
           href="/blog/post-3"
         />

@@ -2,11 +2,17 @@
 import { RiCloseLine, RiMenuFill } from 'react-icons/ri'
 
 import Image from 'next/image';
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
   const [isMenu, setIsMenu] = useState(false)
+
+  const handleLinkClick = (path) => {
+    setIsMenu(false);
+  }
+
+
 
   const toggleMenu = () => {
     setIsMenu(!isMenu)
@@ -27,7 +33,7 @@ function Navbar() {
   }, []);
 
   return (
-    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? 'bg-primary' : 'bg-opacity-20 bg-black'}`}>
+    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? ' bg-primary' : 'bg-opacity-50 bg-black'}`}>
       {/* Añadido 'top-0' para fijar en la parte superior */}
       <nav>
         <div className='flex items-center justify-between h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -79,19 +85,20 @@ function Navbar() {
             }`}>
 
             <div className={`px-4 py-3 space-y-1 sm:px-3 transition-all  ${scrolling ? 'bg-primary ' : 'bg-opacity-5 bg-black'}`}>
-              <Link href='/' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
+              <Link onClick={() => handleLinkClick('/')}
+              href='/' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
                 Inicio
               </Link>
-              <Link href='/nosotros' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
+              <Link onClick={() => handleLinkClick('/nosotros')}href='/nosotros' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
                 Nosotros
               </Link>
-              <Link href='/desarrollo' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
+              <Link onClick={() => handleLinkClick('/desarrollo')} href='/desarrollo' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
                 Desarrollo
               </Link>
-              <Link href='/blog' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
+              <Link onClick={() => handleLinkClick('/blog')} href='/blog' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
                 Blog
               </Link>
-              <Link href='/contacto' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
+              <Link onClick={() => handleLinkClick('/contacto')} href='/contacto' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 transition ease-in duration-700'>
                 Contacto
               </Link>
             </div>
