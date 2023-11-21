@@ -1,18 +1,32 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 function Hero() {
   return (
     <section>
       <div className=' relative w-full h-screen'>
-        <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-tl from-black to-transparent z-10'></div>
-        <div className='absolute top-0 left-0 w-full h-full z-0'>
-          <img
-            src='/TJ.jpg'
-            alt='hero'
-            className='object-cover w-full h-full'
-          />
+ 
+        <div className='absolute top-0 left-0 w-full h-[100vh]  z-0'>
+          <video
+            autoPlay
+            loop
+            muted
+            src='/video/INTRO PAG WEB OBR h264.mp4'
+            className=' hidden md:block object-cover h-screen'
+          >
+          </video>
         </div>
-
+        <div className='absolute top-0 left-0 w-full h-[100vh]  z-0'>
+          <video
+            autoPlay
+            loop
+            muted
+            src='/video/INTRO PAG WEB  VERTICAL h264.mp4'
+            className=' block md:hidden object-cover h-screen '
+          >
+          </video>
+        </div>
       </div>
     </section>
   )

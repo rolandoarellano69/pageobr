@@ -1,5 +1,6 @@
 "use client";
 import React, { useState,useEffect } from 'react';
+import Image from 'next/image';
 //Importacion de Framer Motion
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -32,7 +33,7 @@ const Modal = ({ handleClose, imageSrc }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        <img src={imageSrc} alt="Ampliada" className='object-cover w-[60%] h-[70%]  rounded-lg' />
+        <Image src={imageSrc} alt="Ampliada" className='object-cover w-[60%] h-[70%]  rounded-lg' />
         <button className=' py-2 px-2 relative top-4 right-4 bg-white text-black  rounded-full focus:outline-none z-50' onClick={handleClose}><RiCloseFill/></button>
       </motion.div>
     </Backdrop>
@@ -97,7 +98,7 @@ const InteriorSlider = () => {
         {['recamara_Mesa de trabajo 1', 'cocina 2_Mesa de trabajo 1', 'cocina_Mesa de trabajo 1', 'sala_Mesa de trabajo 1', 'baño_Mesa de trabajo 1'].map((image, index) => (
           <SwiperSlide key={index}>
             <div className='flex flex-col justify-center items-center ' onClick={() => openModal(`/${image}.webp `)}>
-              <img src={`/${image}.webp`} alt="Interior" width={600} height={600} className='object-cover rounded-lg shadow-lg' />
+              <Image src={`/${image}.webp`} alt="Interior" width={600} height={600} className='object-cover rounded-lg shadow-lg' />
             </div>
           </SwiperSlide>
         ))}

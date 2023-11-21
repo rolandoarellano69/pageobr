@@ -18,20 +18,15 @@ function IconsDesarrollos() {
   return (
     <section className='bg-white text-black p-10'>
       <h2 className='text-center text-secondary text-4xl font-bold mb-8'>Desarrollos</h2>
-      <main className=" container mx-auto grid  grid-cols-1 md:grid-cols-2 gap-4">
+      <main className=" container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         {iconsDev.map((iconDev, index) => (
           <Link key={index} href='/desarrollo/aureo' className="block rounded-lg p-4 shadow-lg bg-gray-100 shadow-indigo-100">
-            {/* <img
-            alt={iconDev.alt}
-            src={iconDev.src}
-            className=" h-[15rem] w-full bg-blue-500 rounded-md object-cover"
-          /> */}
+         
             <Image
               alt={iconDev.alt}
               src={iconDev.src}
-              width={500} // Debes especificar un ancho
-              height={300} // Debes especificar una altura
-              layout="responsive" // Esto hará que la imagen sea responsiva
+              width={600} // Debes especificar un ancho
+              height={200} // Debes especificar una altura
               className="bg-blue-500 rounded-md object-cover" // Añade tus clases de Tailwind aquí
             />
 

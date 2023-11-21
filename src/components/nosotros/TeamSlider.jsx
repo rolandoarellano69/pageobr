@@ -2,12 +2,20 @@
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from 'next/image';
 // Import Swiper styles
 import 'swiper/css';
-
-
 import '../../app/globals.css';
+
+const picsTeam = [
+  { src: '/GLADDYS-ACOSTA_Mesa-de-trabajo-1.webp', alt: 'Gladdys Acosta', name: 'Gladdys Acosta', job: 'Asesora de Ventas' },
+  { src: '/FEDERICO-ARMENTA_Mesa-de-trabajo-1.webp', alt: 'Federico Armenta', name: 'Federico Armenta', job: 'Asesor de Ventas' },
+  { src: '/MARÍA-ELENA-MONTAÑO_Mesa-de-trabajo-1.webp', alt: 'María Elena Montaño', name: 'María Elena Montaño', job: 'Asesora de Ventas' },
+  { src: '/NESTOR-CORTÉS.webp', alt: 'Nestor Cortés', name: 'Nestor Cortés', job: 'Asesor de Ventas' },
+  { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Asesora de Ventas' },
+  { src: '/ROGELIO-GARCÍA_Mesa-de-trabajo-1.webp', alt: 'Rogelio García', name: 'Rogelio García', job: 'Asesor de Ventas' },
+  { src: '/CESAR-JIMÉNEZ_Mesa-de-trabajo-1 (1).webp', alt: 'Cesar Jiménez', name: 'Cesar Jiménez', job: 'Asesor de Ventas' },
+];
 
 function TeamSlider() {
   return (
@@ -39,28 +47,24 @@ function TeamSlider() {
         className="mySwiper p-12"
       >
 
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/GLADDYS-ACOSTA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div>
-        </SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/FEDERICO-ARMENTA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/MARÍA-ELENA-MONTAÑO_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/NESTOR-CORTÉS.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/ROGELIO-GARCÍA_Mesa-de-trabajo-1.webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
-        <SwiperSlide><div className='flex flex-col justify-center items-center'>
-          <img src="/CESAR-JIMÉNEZ_Mesa-de-trabajo-1 (1).webp" alt="House" width={100} height={100} className='object-cover rounded-full shadow-lg' />
-        </div></SwiperSlide>
+        {picsTeam.map((picTeam, index) => (
+          <SwiperSlide key={index}>
+            <div className='flex flex-col justify-center items-center'>
+              <Image
+                alt={picTeam.alt}
+                src={picTeam.src}
+                width={450} // Especifica un ancho
+                height={450} // Especifica una altura
+                className="object-cover rounded-full shadow-lg" // Clases de Tailwind
+              />
+              <div className='mt-3 text-black '>
+              <p className='font-semibold '>{picTeam.name}</p>
+              <p className='font-light text-gray-500'>{picTeam.job}</p>
+              </div>
+            </div>
+
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   )

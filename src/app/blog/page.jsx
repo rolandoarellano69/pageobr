@@ -5,7 +5,10 @@ import Link from "next/link";
 
 const HomePage = () => {
   return (
-    <section className="container mx-auto p-10 py-6 sm:py-12 mt-[4rem] text-gray-900 bg-gray-200">
+    <>
+     <div className='relative bg-primary top-0 w-full h-[8rem]'></div>  
+    <section className="container mx-auto p-10 py-6 sm:py-12  mt-[1rem] text-gray-900 ">
+
       <div className="">
         <div className="-mx-4 flex flex-wrap ">
           <div className="w-full px-4 flex ">
@@ -48,6 +51,7 @@ const HomePage = () => {
         />
       </div>
     </section>
+    </>
   );
 };
 

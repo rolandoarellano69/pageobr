@@ -35,16 +35,15 @@ function CardAbout() {
       transition={{ duration: 0.8 }}
       variants={variants}
       aria-labelledby="who-we-are-heading">
-      <div className='relative bg-primary py-4 lg:py-8 mx-10 rounded-xl -translate-y-8 z-20'>
+      <div className='relative bg-primary py-4 lg:py-8 mx-[6rem] rounded-xl -translate-y-8 z-20'>
         <div className='container mx-auto flex flex-col lg:flex-row items-center px-4 lg:px-9'>
           <div className='lg:w-1/2 flex justify-center lg:justify-evenly mb-8 lg:mb-0'>
             <Image
               src='/ASESORA OBR.png'
               alt='Equipo de OBR Grupo Inmobiliario'
               width={300}
-              height={200}
-              objectFit='cover'
-            />
+              height={200} 
+              className='object-cover'/>
             <motion.div
             className='absolute '
               key={currentDialogue}
@@ -54,7 +53,7 @@ function CardAbout() {
               exit="exit"
               transition={{ duration: 0.5 }}
             >
-              <DiagBubble text={currentDialogue}  />
+              {/* <DiagBubble text={currentDialogue}  /> */}
             </motion.div>
           </div>
           <div className='lg:w-1/2'>

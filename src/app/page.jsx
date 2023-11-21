@@ -3,7 +3,6 @@ import Banner1 from '@/components/inicio/Banner1';
 import CardAbout from '@/components/inicio/CardAbout'
 import ExpCard from '@/components/inicio/ExpCard'
 import Hero from '@/components/inicio/Hero'
-import ProjectAbout from '@/components/inicio/ProjectAbout'
 import ProjectAbout2 from '@/components/inicio/ProjectAbout2';
 import ProjectEx from '@/components/inicio/ProjectEx'
 import React from 'react'

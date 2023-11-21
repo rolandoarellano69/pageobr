@@ -2,14 +2,15 @@ import React from 'react'
 import Image from 'next/image'
 function Hero() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2  p-4 md:p-8 mt-16">
+  <>
+    <div className='relative bg-primary top-0 w-full h-[8rem]'></div>  
+    <div className="grid grid-cols-1 md:grid-cols-2  p-4 md:p-8 mt-10">
       <div className="relative h-56 md:h-auto md:min-h-[400px] rounded-lg overflow-hidden  ">
         <Image
           src={'/banner nosotros.webp'}
           alt="House"
-          layout="fill"
-          objectFit="cover"
-          className="rounded-lg"
+          fill
+          className="rounded-lg object-cover"
         />
       </div>
       <div className="flex flex-col  justify-center items-center bg-[#FDFDFD] p-4 md:p-8 rounded-lg ">
@@ -19,6 +20,7 @@ function Hero() {
           </p>
       </div>
     </div>
+    </>
   )
 }
 

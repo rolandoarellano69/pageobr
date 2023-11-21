@@ -51,13 +51,12 @@ function ProjectAbout2() {
     ))}
     <section className=" p-4 md:p-8 ">
       <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
-        <div className="relative h-[40vh] md:h-[60vh]">
+        <div className="relative h-[40vh] md:h-[70vh]">
           <Image
             src="/JADE 4K 4 CASAS.PNG"
             alt="Vista del acceso al proyecto residencial Aureo"
-            layout="fill"
-            objectFit="cover"
-            className="z-0"
+            fill
+            className="z-0 object-cover"
           />
           <div className="absolute bg-gray-100 top-0 z-10">
             <Image
@@ -88,13 +87,12 @@ function ProjectAbout2() {
     
     <section className=" p-4 md:p-8">
       <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
-        <div className="relative h-[40vh] md:h-[60vh]">
+        <div className="relative h-[40vh] md:h-[50vh]">
           <Image
             src="/el colorado 4k.png"
             alt="Vista del acceso al proyecto residencial Aureo"
-            layout="fill"
-            objectFit="cover"
-            className="z-0"
+            fill
+            className="z-0 object-cover"
           />
           <div className="absolute top-0 z-10">
             <Image

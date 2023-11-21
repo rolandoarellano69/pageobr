@@ -1,7 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+
+
 const postOne = () => {
   return (
+    <>
+     <div className='relative bg-primary top-0 w-full h-[8rem]'></div>  
     <section className="flex flex-col justify-center items-center p-10 py-6 sm:py-12 mt-[4rem] text-gray-900 bg-white">
       <div className="mx-auto max-w-3xl text-center mb-[4rem]">
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -14,10 +19,13 @@ const postOne = () => {
         </p>
       </div>
 
-      <img
+      <Image  
         alt="Signage"
         src="/2.jpg"
-        className="h-56 w-[75%] rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
+        width={1020} // Debes especificar un ancho
+        height={100} // Debes especificar una altura
+        quality={100}
+        className=" rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
       />
 
       <div className="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
@@ -91,6 +99,7 @@ const postOne = () => {
         </span>
       </Link>
     </section>
+    </>
   )
 }
 

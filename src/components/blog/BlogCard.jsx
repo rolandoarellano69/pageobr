@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import React from 'react'
 
 function BlogCard({ imagen, date, CardTitle, CardDescription, href }) {
@@ -39,7 +40,7 @@ function BlogCard({ imagen, date, CardTitle, CardDescription, href }) {
           <div className='mb-10 w-full'>
             <div className='mb-8 overflow-hidden rounded'>
               <Link href={href}>
-                <img className='object-cover w-full h-64' src={imagen} alt={`Blog post: ${CardTitle}`} />
+                <Image className='object-cover' width={545} height={245} src={imagen} alt={`Blog post: ${CardTitle}`} />
               </Link>
             </div>
             <div >

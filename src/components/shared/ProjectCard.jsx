@@ -9,9 +9,8 @@ function ProjectCard({imageSrc, logoSrc, title, description, price, linkHref}) {
         <Image
           src={imageSrc}
           alt={`Vista de ${title}`}
-          layout="fill"
-          objectFit="cover"
-          className="z-0"
+          fill
+          className=" object-cover z-0"
         />
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
           <Image
