@@ -1,31 +1,31 @@
-import React, { useState, useEffect } from 'react'
+// npm run de
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import DiagBubble from '@/components/inicio/DiagBubble'
+// import DiagBubble from '@/components/inicio/DiagBubble'
 
 
 function CardAbout() {
-  const dialogues = ['!Compra tu casa', 'En Tijuana!', 'Con OBR Group'];
-  const [currentDialogue, setCurrentDialogue] = useState(dialogues[0]);
+  // const dialogues = ['!Compra tu casa', 'En Tijuana!', 'Con OBR Group'];
+  // const [currentDialogue, setCurrentDialogue] = useState(dialogues[0]);
 
   const variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 }
   }
-  const variants1 = {
-    enter: { opacity: 0, scale: 0.95 },
-    center: { opacity: 1, scale: 1 },
-    exit: { opacity: 0, scale: 1.05 }
-  };
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentDialogue(prev =>
-        dialogues[(dialogues.indexOf(prev) + 2) % dialogues.length]
-      );
-    }, 3000); // Cambia cada 3 segundos
+  // const variants1 = {
+  //   enter: { opacity: 0, scale: 0.95 },
+  //   center: { opacity: 1, scale: 1 },
+  //   exit: { opacity: 0, scale: 1.05 }
+  // };
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentDialogue(prev =>
+  //       dialogues[(dialogues.indexOf(prev) + 2) % dialogues.length]
+  //     );
+  //   }, 3000); // Cambia cada 3 segundos
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
 
@@ -44,7 +44,7 @@ function CardAbout() {
               width={300}
               height={200} 
               className='object-cover'/>
-            <motion.div
+            {/* <motion.div
             className='absolute '
               key={currentDialogue}
               variants={variants1}
@@ -53,8 +53,8 @@ function CardAbout() {
               exit="exit"
               transition={{ duration: 0.5 }}
             >
-              {/* <DiagBubble text={currentDialogue}  /> */}
-            </motion.div>
+              {/* <DiagBubble text={currentDialogue}  /> 
+            </motion.div> */}
           </div>
           <div className='lg:w-1/2'>
             <h2 id="who-we-are-heading" className="text-xl lg:text-3xl font-bold text-center text-gray-100 mb-4">¿QUIENES SOMOS?</h2>
