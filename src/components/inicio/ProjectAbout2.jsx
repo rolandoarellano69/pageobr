@@ -4,7 +4,7 @@ import ProjectCard from "../shared/ProjectCard";
 
 function ProjectAbout2() {
   const projects = [{
-    imageSrc: '/ACCESO AUREO2 nochr.png',
+    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia.jpg',
     logoSrc: '/LOGO-01.png',
     title: 'Aureo Residencial',
     description: 'Proyecto de 26 casas, en una ubicación privilegiada con alta plusvalía, que conecta con los princiaples centros de negocios, plazas comerciales y residenciales de la cuidad de Tijuana.',
@@ -12,29 +12,29 @@ function ProjectAbout2() {
     linkHref: '/learn-more'
   },
   {
-    imageSrc: '/ACCESO ENTRADA PLATINUM 4K sin altura.png',
+    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1.jpg',
     logoSrc: '/logo platinum png-02.png',
     title: 'Platinum Residencial',
     description:'Exclusivo desarrollo de solo 18 casas ubicadas en un punto muy estratégico de la cuidad, con el dinamismo y la actividad comercial que tu estilo de vida  requiere, inverte en una zona de alta plusvalía.',
     price: '$5,450,541 MXN',
     linkHref: '/learn-more'
   },
-  // {
-  //   imageSrc: '/JADE 4K 4 CASAS.png',
-  //   logoSrc: '/logo Jade-01.png',
-  //   title: 'Jade Residencial',
-  //   description:'Proyecto de únicamente 21 casas diseñadas con espacios cómodos y modernos que te permitirán sentir la emocion de un nuevo hogar.',
-  //   price: '$2,348,431 MXN',
-  //   linkHref: '/learn-more'
-  // },
-  // {
-  //   imageSrc: '/el colorado 4k.png',
-  //   logoSrc: '/logo con bandera_Mesa de trabajo 1.png',
-  //   title: 'Torres del Colorado',
-  //   description:' Es un conjunto urbano de departamentos que destaca por su gran conectividad y cercanía a vialidades principales, parques industriales y centros comerciales.',
-  //   price: '$2,348,431 MXN',
-  //   linkHref: '/learn-more'
-  // },
+  {
+    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia 2.jpg',
+    logoSrc: '/logo Jade-01.png',
+    title: 'Jade Residencial',
+    description:'Proyecto de únicamente 21 casas diseñadas con espacios cómodos y modernos que te permitirán sentir la emocion de un nuevo hogar.',
+    price: '$2,348,431 MXN',
+    linkHref: '/learn-more'
+  },
+  {
+    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia 3.jpg',
+    logoSrc: '/logo con bandera_Mesa de trabajo 1.png',
+    title: 'Torres del Colorado',
+    description:' Es un conjunto urbano de departamentos que destaca por su gran conectividad y cercanía a vialidades principales, parques industriales y centros comerciales.',
+    price: '$2,348,431 MXN',
+    linkHref: '/learn-more'
+  },
 
 ]
   return (<>
@@ -42,14 +42,14 @@ function ProjectAbout2() {
     <h1 className="text-gray-900 text-center text-3xl font-bold py-8 ">Nuestros <span className="text-secondary">Desarrollos</span></h1>
 
     {projects.map((project) =>(
-      <section className="p-4 md:p-10" key={project.title}>
-        <div className="container mx-auto">
+      <section className=" md:p-0" key={project.title}>
+        <div className="relative  ">
           <ProjectCard {...project} />
         </div>
       </section>
 
     ))}
-    <section className=" p-4 md:p-8 ">
+    {/* <section className=" p-4 md:p-8 ">
       <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
         <div className="relative h-[40vh] md:h-[70vh]">
           <Image
@@ -118,7 +118,7 @@ function ProjectAbout2() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
   
   </>
   )
