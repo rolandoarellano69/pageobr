@@ -4,7 +4,8 @@ import ProjectCard from "../shared/ProjectCard";
 
 function ProjectAbout2() {
   const projects = [{
-    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia.jpg',
+    imageSrc: '/AUREO.jpg',
+    imageM: '/RESIDENCIALES-07.png',
     logoSrc: '/LOGO-01.png',
     title: 'Aureo Residencial',
     description: 'Proyecto de 26 casas, en una ubicación privilegiada con alta plusvalía, que conecta con los princiaples centros de negocios, plazas comerciales y residenciales de la cuidad de Tijuana.',
@@ -12,44 +13,48 @@ function ProjectAbout2() {
     linkHref: '/learn-more'
   },
   {
-    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1.jpg',
+    imageSrc: '/PLATINUM.jpg',
+    imageM: '/RESIDENCIALES-06.png',
     logoSrc: '/logo platinum png-02.png',
     title: 'Platinum Residencial',
-    description:'Exclusivo desarrollo de solo 18 casas ubicadas en un punto muy estratégico de la cuidad, con el dinamismo y la actividad comercial que tu estilo de vida  requiere, inverte en una zona de alta plusvalía.',
+    description: 'Exclusivo desarrollo de solo 18 casas ubicadas en un punto muy estratégico de la cuidad, con el dinamismo y la actividad comercial que tu estilo de vida  requiere, inverte en una zona de alta plusvalía.',
     price: '$5,450,541 MXN',
     linkHref: '/learn-more'
   },
   {
-    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia 2.jpg',
+    imageSrc: '/JADE.jpg',
+    imageM: '/RESIDENCIALES-08.png',
     logoSrc: '/logo Jade-01.png',
     title: 'Jade Residencial',
-    description:'Proyecto de únicamente 21 casas diseñadas con espacios cómodos y modernos que te permitirán sentir la emocion de un nuevo hogar.',
+    description: 'Proyecto de únicamente 21 casas diseñadas con espacios cómodos y modernos que te permitirán sentir la emocion de un nuevo hogar.',
     price: '$2,348,431 MXN',
     linkHref: '/learn-more'
   },
   {
-    imageSrc: '/RESIDENCIALES_Mesa de trabajo 1 copia 3.jpg',
+    imageSrc: '/TORRES.jpg',
+    imageM: '/RESIDENCIALES-09.png',
     logoSrc: '/logo con bandera_Mesa de trabajo 1.png',
     title: 'Torres del Colorado',
-    description:' Es un conjunto urbano de departamentos que destaca por su gran conectividad y cercanía a vialidades principales, parques industriales y centros comerciales.',
+    description: ' Es un conjunto urbano de departamentos que destaca por su gran conectividad y cercanía a vialidades principales, parques industriales y centros comerciales.',
     price: '$2,348,431 MXN',
     linkHref: '/learn-more'
   },
 
-]
-  return (<>
+  ]
+  return (
+    <>
 
-    <h1 className="text-gray-900 text-center text-3xl font-bold py-8 ">Nuestros <span className="text-secondary">Desarrollos</span></h1>
+      <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-4 lg:py-8 mx-[2rem] rounded-[3rem] translate-y-4 bg-white text-sm md:text-3xl  text-gray-900 z-20"> Conoce nuestros <span className="text-gray-600 font-bold">Desarrollos</span></div>
 
-    {projects.map((project) =>(
-      <section className=" md:p-0" key={project.title}>
-        <div className="relative  ">
-          <ProjectCard {...project} />
-        </div>
-      </section>
+      {projects.map((project) => (
+        <section className=" md:mt-0 mt-[0rem] p-4 md:p-0" key={project.title}>
+          <div className="relative">
+            <ProjectCard {...project} />
+          </div>
+        </section>
 
-    ))}
-    {/* <section className=" p-4 md:p-8 ">
+      ))}
+      {/* <section className=" p-4 md:p-8 ">
       <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
         <div className="relative h-[40vh] md:h-[70vh]">
           <Image
@@ -119,8 +124,8 @@ function ProjectAbout2() {
         </div>
       </div>
     </section> */}
-  
-  </>
+
+    </>
   )
 }
 export default ProjectAbout2;

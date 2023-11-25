@@ -4,7 +4,7 @@ import CardAbout from '@/components/inicio/CardAbout'
 import ExpCard from '@/components/inicio/ExpCard'
 import Hero from '@/components/inicio/Hero'
 import ProjectAbout2 from '@/components/inicio/ProjectAbout2';
-import ProjectEx from '@/components/inicio/ProjectEx'
+import ProjectEx from '@/components/inicio/ProjectEx';
 import React from 'react'
 
 

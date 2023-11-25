@@ -5,7 +5,7 @@ function Banner1() {
     
     <div className=' relative w-full h-96 bg-gray-200'>
     <div className='relative w-full h-full'>
-      <Image src='/TJ.jpg' alt='Imagen1' width={1600} height={384} className='object-cover'style={{ width: 1360, height:384 }} />
+      <Image src='/TJ.jpg' alt='Imagen1' width={1600} height={384} className='object-cover'style={{ width: 2860, height:384 }} />
       <div className='absolute inset-0 bg-primary opacity-80'></div>
       <div className='absolute inset-0 flex items-center justify-center  text-white'>
           <p className=' text-xl  md:text-3xl font-bold  text-center md:text-left'> Calidad y Excelencia: Nuestra Pasión</p>

@@ -31,4 +31,4 @@ function HeroDesarrollo() {
   )
 }
 
-export default HeroDesarrollo
+export default HeroDesarrollo 

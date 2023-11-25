@@ -58,10 +58,10 @@ function CardAbout() {
           </div>
           <div className='lg:w-1/2'>
             <h2 id="who-we-are-heading" className="text-xl lg:text-3xl font-bold text-center text-gray-100 mb-4">¿QUIENES SOMOS?</h2>
-            <p className="text-sm lg:text-base text-gray-300 mb-8">
+            <p className="text-base lg:text-lg text-gray-200 mb-8">
               Somos una desarrolladora Inmobiliaria en constante crecimiento con diversos desarrollos en Tijuana B.C., en zonas estratégicas y privilegiadas. Nuestros proyectos están llamados a convertirse en referentes.
             </p>
-            <h4 className="text-base lg:text-lg text-gray-200 uppercase font-bold">Obr Group</h4>
+       
           </div>
         </div>
       </div>

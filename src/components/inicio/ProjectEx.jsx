@@ -3,50 +3,33 @@ import Image from 'next/image'
 import Link from 'next/link'
 function ProjectEx() {
   return (
-    <section className="bg-white  md:p-8 py-12">
-      <section className=" p-4 md:p-8">
-      <h2 className="text-3xl text-gray-900 font-bold text-center mb-8 ">
-            Proyectos de <span className="font-bold text-secondary">éxito</span>
-        </h2>
-      <div className="container mx-auto rounded-xl overflow-hidden shadow-lg bg-blue-400">
-        <div className="relative h-[40vh] md:h-[65vh]">
+    <section className='overflow-hidden p-4 md:p-0'>
+      <div className="relative hidden md:block md:h-[65vh] lg:h-[57vh] xl:h-[97vh]  ">
+        <div>
           <Image
-            src="/romeo.png"
-            alt="Vista del acceso al proyecto residencial Aureo"
+            src='/RESIDENCIALES_Mesa de trabajo 1 copia 4.jpg'
+            alt='Vista de Romeo'
             fill
-            className="z-0 object-cover"
+            quality={100}
+            className="z-0"
           />
-          <div className=" absolute bottom-0 rounded-tr-lg bg-gray-200 md:bg-transparent md:top-0 p-6 z-10">
-            <Image
-              src="/Privadas Romeo Logo 1.png"
-              alt="Logo del proyecto Aureo"
-              width={200}
-              height={200}
-            />
-          </div>
-          <div className="hidden md:block absolute top-0 right-1  z-10">
-            <Image
-              src="/etiqueta.png"
-              alt="Logo del proyecto Aureo"
-              width={450}
-              height={200}
-            />
-          </div>
         </div>
-        <div className="p-4 bg-white">
-          <h3 className="text-xl font-bold mb-2 text-gray-800">Privadas Romeo</h3>
-          <p className="mb-4 text-gray-700">
-           Fraccionamiento en Santa Fe de 45, viviendas amplias e independientes.
-          </p>
-          <div className="flex justify-between items-center">
-            <span className="font-bold text-xl text-red-500">100% Vendido</span>
-         
-          </div>
         </div>
-      </div>
+
+        <div className=' relative block md:hidden h-[17rem] '>
+          <Image
+            src='/RESIDENCIALES-10.png'
+            alt='Vista de Romeo'
+            fill
+            quality={100}
+            className="object-fill"
+          />
+        </div>
+        {/* <div className='relative flex justify-center mt-4 md:hidden'>
+          <button className='bg-secondary px-[8rem] py-1 rounded-3xl text-sm'>  Conoce más </button>
+        </div> */}
+
     </section>
-   
-</section>
   )
 }
 

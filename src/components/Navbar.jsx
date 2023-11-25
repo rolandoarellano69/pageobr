@@ -40,18 +40,18 @@ visible : {opacity: 1, y: 0}
   }, []);
 
   return (
-    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? ' bg-primary' : 'bg-black bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg'}`}>
+    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? ' bg-primary' : 'bg-black bg-opacity-50 backdrop-blur-lg rounded drop-shadow-lg'}`}>
       {/* Añadido 'top-0' para fijar en la parte superior */}
       <nav>
         <div className='flex items-center justify-end md:items-center md:justify-center h-[5rem] md:h-[8rem] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
           
 
-          <div className='hidden md:block translate-x-[5rem]'>
-            <div className='text-xl ml-4 flex items-center space-x-4 gap-10'>
+          <div className='hidden md:block '>
+            <div className='text-lg sm:text-base lg:text-lg ml-4 flex items-center space-x-4 sm:space-x-3 lg:space-x-4 gap-10'>
               <Link href='/' className='text-white hover:bg-primary  rounded-lg p-2 transition ease-in duration-700'>
                 Inicio
               </Link>
-              <Link href='/desarrollo' className='text-white hover:bg-primary   rounded-lg p-2 transition ease-in duration-700'>
+              <Link href='/desarrollo' className='text-white hover:bg-primary rounded-lg p-2 transition ease-in duration-700'>
                 Desarrollo
               </Link>
               <div className='flex items-center justify-center h-16'>
@@ -62,7 +62,6 @@ visible : {opacity: 1, y: 0}
                   src='/logogtipo OBR versiones de color-03-02.png'
                   width={200}
                   height={200}
-                  loading='lazy'
                 />
               </Link>
             </div>
