@@ -7,7 +7,7 @@ function ProjectEx() {
       <div className="relative hidden md:block md:h-[65vh] lg:h-[57vh] xl:h-[97vh]  ">
         <div>
           <Image
-            src='/RESIDENCIALES_Mesa de trabajo 1 copia 4.jpg'
+            src='/ROMEO.jpg'
             alt='Vista de Romeo'
             fill
             quality={100}

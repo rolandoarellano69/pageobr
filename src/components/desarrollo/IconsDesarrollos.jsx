@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 
 const iconsDev = [
-  { src: '/ACCESO AUREO2 nochr.png', alt: 'Aureo Residencial', description: 'Loma Dorada', Precio: '$5,450,541 MXN', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
+  { src: '/PLATINUM CON TERRAZA noche 4K.jpg', alt: 'Aureo Residencial', description: 'Loma Dorada', Precio: '$5,450,541 MXN', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
   { src: '/el colorado 4k.png', alt: 'Torres Del Colorado', description: 'Hacienda del Colorado', Precio: '$1,477,351 MXN', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
   { src: '/PLATINUM CON TERRAZA 4K.jpg', alt: 'Platinum Residencial', description: 'Loma Dorada', Precio: '$5,397,600 MXN', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
   { src: '/CIPRES FACHADA.jpg', alt: 'Cipres Del Bosque', description: 'Paseo Del Bosque', Precio: '$4,200,000', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
   { src: '/JADE 4K 4 CASAS.PNG', alt: 'Jade Residencial', description: 'La Gloria', Precio: '$2,348,431 MXN', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
-  { src: '/ACCESO AUREO2 nochr.png', alt: 'Almeria', description: 'Barcelona', Precio: '$6,200,000', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
+  { src: '/FACHADAS BARCELONA3.jpg', alt: 'Almeria', description: 'Barcelona', Precio: '$6,200,000', Parking: '2', Bathrooms: '2', Bedrooms: '2' },
 ];
 
 function IconsDesarrollos() {
@@ -25,9 +25,9 @@ function IconsDesarrollos() {
             <Image
               alt={iconDev.alt}
               src={iconDev.src}
-              width={600} // Debes especificar un ancho
-              height={200} // Debes especificar una altura
-              className="bg-blue-500 rounded-md object-cover" // Añade tus clases de Tailwind aquí
+              width={900}
+              height={300}
+              className="bg-blue-500 rounded-md object-fill" // Añade tus clases de Tailwind aquí
             />
 
             <div className='mt-2 '>
