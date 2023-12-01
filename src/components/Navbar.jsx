@@ -40,7 +40,7 @@ visible : {opacity: 1, y: 0}
   }, []);
 
   return (
-    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? ' bg-primary' : 'bg-black bg-opacity-50 backdrop-blur-lg rounded drop-shadow-lg'}`}>
+    <header className={`fixed w-full top-0 left-0 z-30 ${scrolling ? ' bg-primary' : 'bg-black bg-opacity-30 rounded drop-shadow-lg'}`}>
       {/* Añadido 'top-0' para fijar en la parte superior */}
       <nav>
         <div className='flex items-center justify-end md:items-center md:justify-center h-[5rem] md:h-[8rem] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>

@@ -5,8 +5,11 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
 import '../../app/globals.css';
 //react icons 
 import {RiCloseFill} from 'react-icons/ri'
@@ -47,30 +50,32 @@ const InteriorSlider = () => {
   const [selectedImage, setSelectedImage] = useState('');
   
   
-  useEffect(() => {
-    if (modalOpen) {
-      document.body.classList.add('overflow-hidden');
-    } else {
-      document.body.classList.remove('overflow-hidden');
-    }
-  }, [modalOpen]);
+  // useEffect(() => {
+  //   if (modalOpen) {
+  //     document.body.classList.add('overflow-hidden');
+  //   } else {
+  //     document.body.classList.remove('overflow-hidden');
+  //   }
+  // }, [modalOpen]);
 
-  const openModal = (imageSrc) => {
-    setSelectedImage(imageSrc);
-    setModalOpen(true);
-    document.body.style.overflow= 'hidden';
-  }
+  // const openModal = (imageSrc) => {
+  //   setSelectedImage(imageSrc);
+  //   setModalOpen(true);
+  //   document.body.style.overflow= 'hidden';
+  // }
 
-  const closeModal = () => {
-    setModalOpen(false);
-    document.body.style.overflow='auto';
-  }
+  // const closeModal = () => {
+  //   setModalOpen(false);
+  //   document.body.style.overflow='auto';
+  // }
 
 
   return (
     <div className='bg-white md:m-4  p-4 rounded-lg shadow-lg max-w-full max-h-full'>
       <Swiper
         slidesPerView={1}
+        modules={[Navigation]}
+        navigation
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -103,9 +108,9 @@ const InteriorSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {modalOpen && <Modal imageSrc={selectedImage} handleClose={closeModal} />}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </div>
   );
 };
