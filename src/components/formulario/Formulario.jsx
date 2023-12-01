@@ -9,7 +9,7 @@ function Formulario() {
   return (
     <section className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 container mx-auto mt-[8rem]">
     <div className="max-w-lg mx-auto">
-      <form  action='https://forms.zohopublic.com/obrgroup/form/FormOBR/formperma/gTFYw86VPnOZ_sQiY4T04fZNyM17vCOpRQ7VNkBYkkA/htmlRecords/submit' onSubmit={handleSubmit} acceptCharset='UTF-8' encType='multipart/form-data'>
+      <form  action='https://forms.zohopublic.com/obrgroup/form/FormOBR/formperma/gTFYw86VPnOZ_sQiY4T04fZNyM17vCOpRQ7VNkBYkkA/htmlRecords/submit'  acceptCharset='UTF-8' encType='multipart/form-data'>
         {/* Nombre */}
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">Nombre <span className="text-red-500">*</span></label>
