@@ -49,8 +49,9 @@ function ProjectAbout2() {
       <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[0rem] md:translate-y-[3rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-20">
         Conoce nuestros <span className="text-gray-600 font-bold">proyectos</span>
       </div>
+
       {/*cards*/}
-      <div className=" relative overflow-hidden shadow-lg">
+      <div className=" hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[70vh]">
           <Image
             src="/ACCESO AUREO2 nochr.png"
@@ -90,7 +91,7 @@ function ProjectAbout2() {
       </div>
 
       {/*cards*/}
-      <div className=" relative overflow-hidden shadow-lg">
+      <div className="  hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[95vh] w-full">
           <Image
             src="/ACCESO ENTRADA PLATINUM 4K sin altura.png"
@@ -129,7 +130,7 @@ function ProjectAbout2() {
       </div>
 
       {/*cards*/}
-      <div className=" relative overflow-hidden shadow-lg">
+      <div className=" hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[80vh] w-full">
           <Image
             src="/JADE 4K 4 CASAS.png"
@@ -170,7 +171,7 @@ function ProjectAbout2() {
 
       {/*cards*/}
 
-      <div className=" relative overflow-hidden shadow-lg">
+      <div className="  hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[90vh] w-full">
           <Image
             src="/el colorado 4k.png"
