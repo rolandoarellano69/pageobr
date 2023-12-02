@@ -8,7 +8,7 @@ function ProjectEx() {
   Proyectos de  <span className="text-gray-600 font-bold">  éxito</span>
 </div>
 
-      <div className=" relative overflow-hidden shadow-lg">
+      <div className="  hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[70vh] w-full">
           <Image
             src="/romeo.png"

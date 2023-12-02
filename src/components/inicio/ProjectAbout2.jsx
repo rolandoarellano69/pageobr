@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link'
 import ProjectCard from "../shared/ProjectCard";
-import cardAureo from "@/components/inicio/desarrolloCards/cardAureo";
+
 
 function ProjectAbout2() {
   const projects = [{
@@ -51,8 +51,8 @@ function ProjectAbout2() {
       </div>
 
       {/*cards*/}
-      <div className=" hidden md:block relative overflow-hidden shadow-lg">
-        <div className=" h-[40vh] md:h-[70vh]">
+      <div className=" hidden lg:block relative overflow-hidden shadow-lg">
+        <div className=" h-[20vh] md:h-[60vh]">
           <Image
             src="/ACCESO AUREO2 nochr.png"
             alt="Vista del acceso al proyecto residencial Aureo"
@@ -91,7 +91,7 @@ function ProjectAbout2() {
       </div>
 
       {/*cards*/}
-      <div className="  hidden md:block relative overflow-hidden shadow-lg">
+      <div className="  hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[95vh] w-full">
           <Image
             src="/ACCESO ENTRADA PLATINUM 4K sin altura.png"
@@ -130,10 +130,10 @@ function ProjectAbout2() {
       </div>
 
       {/*cards*/}
-      <div className=" hidden md:block relative overflow-hidden shadow-lg">
+      <div className=" hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[80vh] w-full">
           <Image
-            src="/JADE 4K 4 CASAS.png"
+            src="/JADE 4K 4 CASAS.PNG"
             alt="Vista del acceso al proyecto residencial Aureo"
             fill
             quality={100}
@@ -171,7 +171,7 @@ function ProjectAbout2() {
 
       {/*cards*/}
 
-      <div className="  hidden md:block relative overflow-hidden shadow-lg">
+      <div className="  hidden lg:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[90vh] w-full">
           <Image
             src="/el colorado 4k.png"
@@ -212,7 +212,7 @@ function ProjectAbout2() {
 
 
       {projects.map((project) => (
-        <section className=" md:mt-0 mt-[0rem] p-4 md:p-0" key={project.title}>
+        <section className=" md:mt-0 mt-[0rem] p-2 md:p-0" key={project.title}>
           <div className="relative">
             <ProjectCard {...project} />
           </div>

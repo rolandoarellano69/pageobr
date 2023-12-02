@@ -54,7 +54,8 @@ visible : {opacity: 1, y: 0}
               <Link href='/desarrollo' className='text-white hover:bg-primary rounded-lg p-2 transition ease-in duration-700'>
                 Desarrollo
               </Link>
-              <div className='flex items-center justify-center h-16'>
+              
+              <div className='flex items-center justify-center h-10'>
             <div className=''>
               <Link href='/'>
                 <Image

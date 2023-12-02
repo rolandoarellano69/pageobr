@@ -5,19 +5,19 @@ import Image from 'next/image'
 
 function ProjectCard({ imageSrc, imageM, title, description, price, linkHref }) {
   return (
-    <article className="overflow-hidden bg-transparent">
+    <article className="mt-[4rem] mb-[4rem] overflow-hidden bg-transparent">
     
       {/*mobile */}
-      <div className=' relative flex  md:hidden h-[20rem] '>
+      <div className=' relative flex  lg:hidden h-[20rem] '>
         <Image
           src={imageM}
           alt={`Vista de ${title}`}
           fill
           quality={100}
-          className="object-fill"
+          className="object-contain"
         />
       </div>
-      <div className='relative flex justify-center mt-4 md:hidden'>
+      <div className='relative flex justify-center mt-4 lg:hidden'>
         <button className='bg-secondary px-[8rem] py-1 rounded-3xl text-sm'>  Conoce más </button>
       </div>
     </article>

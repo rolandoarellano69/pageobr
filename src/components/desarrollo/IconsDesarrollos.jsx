@@ -17,7 +17,7 @@ const iconsDev = [
 function IconsDesarrollos() {
   return (
     <section className='bg-white text-black p-10'>
-      <h2 className='text-center text-gray-500 text-4xl font-bold mb-8'>Desarrollos</h2>
+      <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[0rem] md:translate-y-[3rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-20"> Desarrollo</div>
       <main className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
         {iconsDev.map((iconDev, index) => (
           <Link key={index} href={iconDev.hrefn} className=" rounded-lg p-4 shadow-lg bg-gray-100 shadow-indigo-100">
@@ -29,96 +29,6 @@ function IconsDesarrollos() {
               height={300}
               className="bg-blue-500 rounded-md object-fill" // Añade tus clases de Tailwind aquí
             />
-
-            <div className='mt-2 '>
-              <dl>
-                <div>
-                  <dt className="sr-only ">Precio</dt>
-
-                  <dd className="text-sm text-secondary">{iconDev.Precio}</dd>
-                </div>
-                <div>
-                  <dt className="sr-only">Residencial Name</dt>
-
-                  <dd className="font-medium">{iconDev.alt}</dd>
-                </div>
-                <div>
-                  <dt className="sr-only">Address</dt>
-
-                  <dd className="font-medium text-gray-600 text-sm ">{iconDev.description}</dd>
-                </div>
-              </dl>
-
-              <section className='flex justify-around items-center mt-4'>
-
-
-                <div className=" items-center gap-8 text-sm">
-                  <div className="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
-                    <svg
-                      className="h-5 w-5 text-secondary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
-                      />
-                    </svg>
-                    <div className="mt-1.5 sm:mt-0">
-                      <p className="text-gray-500">Estacionamientos</p>
-                      <p className="font-medium">{iconDev.Parking} Carros</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className=" sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2 text-sm">
-                  <svg
-                    className="h-5 w-5 text-secondary"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                    />
-                  </svg>
-
-                  <div className="mt-1.5 sm:mt-0">
-                    <p className="text-gray-500">W/C</p>
-                    <p className="font-medium">{iconDev.Bathrooms} Baños</p>
-                  </div>
-                </div>
-
-                <div className="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-4 text-sm">
-                  <svg
-                    className="h-5 w-5 ml-4 text-secondary"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                    />
-                  </svg>
-                  <div className="mt-1.5 sm:mt-0">
-                    <p className="text-gray-500">Habitaciones</p>
-                    <p className="font-medium">{iconDev.Bedrooms} Cuartos</p>
-                  </div>
-                </div>
-              </section>
-            </div>
           </Link>
         ))}
       </main>
