@@ -8,11 +8,10 @@ import 'swiper/css';
 import '../../app/globals.css';
 
 const picsTeam = [
-  { src: '/GLADDYS-ACOSTA_Mesa-de-trabajo-1.webp', alt: 'Gladdys Acosta', name: 'Gladdys Acosta', job: 'Asesora de Ventas' },
+  { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Asesora de Ventas' },
   { src: '/FEDERICO-ARMENTA_Mesa-de-trabajo-1.webp', alt: 'Federico Armenta', name: 'Federico Armenta', job: 'Asesor de Ventas' },
   { src: '/MARÍA-ELENA-MONTAÑO_Mesa-de-trabajo-1.webp', alt: 'María Elena Montaño', name: 'María Elena Montaño', job: 'Asesora de Ventas' },
   { src: '/NESTOR-CORTÉS.webp', alt: 'Nestor Cortés', name: 'Nestor Cortés', job: 'Asesor de Ventas' },
-  { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Asesora de Ventas' },
   { src: '/ROGELIO-GARCÍA_Mesa-de-trabajo-1.webp', alt: 'Rogelio García', name: 'Rogelio García', job: 'Asesor de Ventas' },
   { src: '/CESAR-JIMÉNEZ_Mesa-de-trabajo-1 (1).webp', alt: 'Cesar Jiménez', name: 'Cesar Jiménez', job: 'Asesor de Ventas' },
 ];

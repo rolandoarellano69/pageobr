@@ -22,37 +22,37 @@ function Valores() {
     >
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center '>
-          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Responsabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/HONESTIDAD.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/HONESTIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Honestidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/CONFIABILIDAD.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/CONFIABILIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Confiabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/SERVICIO.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/SERVICIO.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Servicio</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/COMPROMISO.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/COMPROMISO.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Compromiso</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/PASION.png'} alt="House" width={100} height={100} className='rounded-full' />
+          <Image src={'/PASION.png'} alt="House" width={50} height={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Pasión</p>
         </div>
       </SwiperSlide>

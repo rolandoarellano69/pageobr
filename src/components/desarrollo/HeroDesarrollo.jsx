@@ -19,7 +19,7 @@ function HeroDesarrollo() {
         </div>
         <div className="absolute inset-0 "></div>
         <div className="relative z-10 p-8">
-          <h1 className="text-2xl md:text-[40px] font-extrabold text-left text-zinc-600 mb-4 ml-[4rem]">Encuentra la <br />Casa de tus sueños</h1>
+          <h1 className="text-2xl md:text-[70px] leading-tight font-extrabold text-left text-zinc-600 mb-4 ml-[4rem]">Encuentra la <br />Casa de tus sueños</h1>
         </div>
       </div>
     </section>
