@@ -18,29 +18,29 @@ function Valores() {
     <Swiper
       spaceBetween={10}
       slidesPerView={1}
-      className="md:hidden lg:hidden mb-8"
+      className="md:hidden lg:hidden mb-8 p-4"
     >
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center '>
-          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
+          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={70} height={70} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Responsabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/HONESTIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
+          <Image src={'/HONESTIDAD.png'} alt="House" width={70} height={70} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Honestidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/CONFIABILIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
+          <Image src={'/CONFIABILIDAD.png'} alt="House" width={70} height={70} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Confiabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/SERVICIO.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
+          <Image src={'/SERVICIO.png'} alt="House" width={70} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Servicio</p>
         </div>
       </SwiperSlide>
