@@ -22,37 +22,37 @@ function Valores() {
     >
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center '>
-          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/RESPONSABILIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Responsabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/HONESTIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/HONESTIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Honestidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/CONFIABILIDAD.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/CONFIABILIDAD.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Confiabilidad</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/SERVICIO.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/SERVICIO.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Servicio</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/COMPROMISO.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/COMPROMISO.png'} alt="House" width={50} height={100}  quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Compromiso</p>
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div className='flex flex-col justify-center items-center'>
-          <Image src={'/PASION.png'} alt="House" width={50} height={100} className='rounded-full' />
+          <Image src={'/PASION.png'} alt="House" width={50} height={100} quality={100} className='rounded-full' />
           <p className='text-center font-bold mb-2 text-secondary '>Pasión</p>
         </div>
       </SwiperSlide>
@@ -63,32 +63,32 @@ function Valores() {
     <div className=" grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-2 hidden md:flex lg:flex lg:justify-center">
       {/* Valor 1 */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/RESPONSABILIDAD.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/RESPONSABILIDAD.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Responsabilidad</p>
       </div>
       {/* Valor 2 */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/HONESTIDAD.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/HONESTIDAD.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Honestidad</p>
       </div>
       {/* Valor 3 */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/CONFIABILIDAD.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/CONFIABILIDAD.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Confiabilidad</p>
       </div>
       {/* Valor 4 */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/SERVICIO.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/SERVICIO.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Servicio</p>
       </div>
       {/* Valor 5 */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/COMPROMISO.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/COMPROMISO.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Compromiso</p>
       </div>
       {/* Repite este bloque para cada valor */}
       <div className='flex flex-col justify-center items-center'>
-        <Image src={'/PASION.png'} alt="House" width={200} height={200} className='rounded-full' />
+        <Image src={'/PASION.png'} alt="House" width={200} height={200} quality={100} className='rounded-full' />
         <p className='text-center font-bold mb-2 text-secondary '>Pasión</p>
       </div>
     </div>
