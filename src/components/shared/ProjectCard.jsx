@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function ProjectCard({ imageSrc, imageM, title, description, price, linkHref }) {
   return (
-    <article className="mt-[4rem] mb-[4rem] overflow-hidden bg-transparent">
+    <article className="mt-[.5rem] overflow-hidden bg-transparent">
     
       {/*mobile */}
       <div className=' relative flex  lg:hidden h-[20rem] '>
@@ -18,7 +18,9 @@ function ProjectCard({ imageSrc, imageM, title, description, price, linkHref }) 
         />
       </div>
       <div className='relative flex justify-center mt-4 lg:hidden'>
+        <Link href={linkHref}>
         <button className='bg-secondary px-[8rem] py-1 rounded-3xl text-sm'>  Conoce más </button>
+        </Link>
       </div>
     </article>
   )

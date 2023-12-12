@@ -11,7 +11,7 @@ function ProjectAbout2() {
     title: 'Aureo Residencial',
     description: 'Proyecto de 26 casas, en una ubicación privilegiada con alta plusvalía, que conecta con los princiaples centros de negocios, plazas comerciales y residenciales de la cuidad de Tijuana.',
     price: '$5,397,600 MXN',
-    linkHref: 'https://aureoresidencial.com/'
+    linkHref: 'https://residencialaureo.com/inicio'
   },
   {
     imageSrc: '/PLATINUM.jpg',
@@ -29,7 +29,7 @@ function ProjectAbout2() {
     title: 'Jade Residencial',
     description: 'Proyecto de únicamente 21 casas diseñadas con espacios cómodos y modernos que te permitirán sentir la emocion de un nuevo hogar.',
     price: '$2,348,431 MXN',
-    linkHref: 'https://jaderesidencial.com/'
+    linkHref: 'https://jaderesidencial.com.mx/'
   },
   {
     imageSrc: '/TORRES.jpg',

@@ -1,9 +1,11 @@
-import Formulario from '@/components/formulario/Formulario';
+
+import { Formulario2 } from '@/components/formulario/Formulario2';
 
 function Contactpage() {
 	return (
 		<main>
-			<Formulario />
+			<Formulario2 />
+			{/* <Formulario /> */}
 		</main>
 	)
 }
