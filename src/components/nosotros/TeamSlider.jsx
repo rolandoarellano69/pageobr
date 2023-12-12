@@ -52,8 +52,8 @@ function TeamSlider() {
               alt={picTeam.alt}
               src={picTeam.src}
               quality={100}
-              width={350} 
-              height={350} 
+              width={50} 
+              height={50} 
               className="rounded-full shadow-lg" 
             />
             <div className='mt-3 text-black '>
