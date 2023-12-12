@@ -3,9 +3,13 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import {Navigation} from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation'; 
 import '../../app/globals.css';
+
+
 
 const picsTeam = [
   { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Asesora de Ventas' },
@@ -19,53 +23,48 @@ const picsTeam = [
 function TeamSlider() {
   return (
     <div className='md:m-4 p-4 '>
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          '@0.00': {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          '@0.75': {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          '@1.00': {
-            slidesPerView: 3,
-            spaceBetween: 40,
-          },
-          '@1.50': {
-            slidesPerView: 4,
-            spaceBetween: 50,
-          },
-        }}
-        className="mySwiper p-12"
-      >
+    <Swiper
+      slidesPerView={1}
+      spaceBetween={10}
+      navigation={true}
+      modules={[Navigation]}
 
-        {picsTeam.map((picTeam, index) => (
-          <SwiperSlide key={index}>
-            <div className='flex flex-col justify-center items-center'>
-              <Image
-                alt={picTeam.alt}
-                src={picTeam.src}
-                width={450} // Especifica un ancho
-                height={450} // Especifica una altura
-                className="object-cover rounded-full shadow-lg" // Clases de Tailwind
-              />
-              <div className='mt-3 text-black '>
-              <p className='font-semibold '>{picTeam.name}</p>
+      breakpoints={{
+        640: { // Pantallas pequeñas
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: { // Pantallas medianas
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1024: { // Pantallas grandes
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      }}
+      className="mySwiper p-6"
+    >
+      {picsTeam.map((picTeam, index) => (
+        <SwiperSlide key={picTeam.name}>
+          <div className='flex flex-col items-center'>
+            <Image
+              alt={picTeam.alt}
+              src={picTeam.src}
+              quality={100}
+              width={250} 
+              height={250} 
+              className="rounded-full shadow-lg" 
+            />
+            <div className='mt-3 text-black '>
+              <p className='font-semibold'>{picTeam.name}</p>
               <p className='font-light text-gray-500'>{picTeam.job}</p>
-              </div>
             </div>
-
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  </div>
   )
 }
 

@@ -6,7 +6,7 @@ function HeroDesarrollo() {
     <>
       <section>
         <div className="relative flex items-center justify-start">
-          <div className='hidden md:block h-[95vh] lg:w-[80hw] '>
+          <div className='hidden md:block h-[80vh] lg:w-[80hw] '>
 
             <Image
               src="/familia3.jpg"

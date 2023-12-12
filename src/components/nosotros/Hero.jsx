@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Hero() {
   return (
   <>
-    <div className='relative bg-primary top-0 w-full h-[8rem]'></div>  
+    <div className='relative bg-primary top-0 w-full h-[6rem]'></div>  
     <div className="grid grid-cols-1 md:grid-cols-2  md:pb-2 mb-6">
       <div className="relative h-56 md:h-auto md:min-h-[400px]  overflow-hidden  ">
         <Image
