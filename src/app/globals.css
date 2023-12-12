@@ -17,8 +17,8 @@ body{
 
 }
 .swiper {
-  width: 75%;
-  height: 75%;
+  width: 95%;
+  height: 95%;
 }
 
 .swiper-slide {
@@ -34,8 +34,8 @@ body{
 
 .swiper-slide img {
   display: block;
-  width: 75%;
-  height: 75%;
+  width: 95%;
+  height: 95%;
   object-fit: cover;
 }
 .swiper-button-next{
