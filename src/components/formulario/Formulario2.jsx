@@ -5,9 +5,8 @@ import { motion } from 'framer-motion'
 import Image from 'next/image';
 export const Formulario2 = () => {
   const iframeStyle = {
-    
-    height: '100vh',
-    width: '70%',
+    height: '70vh',
+    width: '80%',
     border: 'none',
   };
 
@@ -18,37 +17,22 @@ export const Formulario2 = () => {
 
   return (
     <>
-      <div className='relative bg-secondary top-0 w-full'></div>
-      <section className='text-gray-600 body-font mt-[4rem] relative'>
-        <div className="container px-5 py-24 mx-auto flex-row-reverse flex sm:flex-nowrap flex-wrap h-[80vh]">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-            className="lg:w-2/3 md:w-1/2 md:h-1/2 lg:h-2/3 overflow-hidden top-8 sm:mr-10 p-10 flex items-end justify-start relative">
-
-            <Image
-              src='/mujer-sonriente-algo-presentacion-auriculares.jpg'
-              alt='OBR Group'
-              fill
-              className='object-contain ' />
-          </motion.div>
-
-          {/* div zoho */}
-          <motion.iframe
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-            aria-label='Form OBR'
-            style={iframeStyle}
-            src='https://forms.zohopublic.com/obrgroup/form/FormOBR/formperma/h5W4BVvU_PTm6KUWmBvVstuKP133oP3GXrSVkzLYrZo'
-          ></motion.iframe>
-
-        </div>
-
-
-      </section>
-    </>
+    <div className='bg-secondary w-full h-[6rem]'></div>
+    <section className='text-gray-600 body-font mt-[2rem]'>
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-5 py-0 ">
+        
+        {/* Contenido del Formulario */}
+        <motion.iframe
+          initial="hidden"
+          animate="visible"
+          variants={containerVariants}
+          aria-label='Form OBR'
+          src='https://forms.zohopublic.com/obrgroup/form/FormOBR/formperma/h5W4BVvU_PTm6KUWmBvVstuKP133oP3GXrSVkzLYrZo'
+          style={iframeStyle}
+        ></motion.iframe>
+      </div>
+    </section>
+  </>
 
   )
 }
