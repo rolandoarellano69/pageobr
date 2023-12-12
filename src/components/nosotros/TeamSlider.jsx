@@ -40,7 +40,7 @@ function TeamSlider() {
         },
         1024: { // Pantallas grandes
           slidesPerView: 3,
-          spaceBetween: 20,
+          spaceBetween: 40,
         },
       }}
       className="mySwiper p-6"
@@ -52,8 +52,8 @@ function TeamSlider() {
               alt={picTeam.alt}
               src={picTeam.src}
               quality={100}
-              width={250} 
-              height={250} 
+              width={350} 
+              height={350} 
               className="rounded-full shadow-lg" 
             />
             <div className='mt-3 text-black '>

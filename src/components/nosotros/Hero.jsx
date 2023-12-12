@@ -7,7 +7,7 @@ function Hero() {
     <div className="grid grid-cols-1 md:grid-cols-2  md:pb-2 mb-6">
       <div className="relative h-56 md:h-auto md:min-h-[400px]  overflow-hidden  ">
         <Image
-          src={'/banner nosotros.webp'}
+          src='/banner nosotros.webp'
           alt="House"
           fill
           className="object-cover"
