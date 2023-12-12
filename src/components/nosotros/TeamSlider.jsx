@@ -3,10 +3,10 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import {Navigation} from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation'; 
+import 'swiper/css/navigation';
 import '../../app/globals.css';
 
 
@@ -22,49 +22,26 @@ const picsTeam = [
 
 function TeamSlider() {
   return (
-    <div className='md:m-4 p-4 '>
-    <Swiper
-      slidesPerView={2}
-      spaceBetween={10}
-      navigation={true}
-      modules={[Navigation]}
-
-      breakpoints={{
-        640: { // Pantallas pequeñas
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: { // Pantallas medianas
-          slidesPerView: 2,
-          spaceBetween: 30,
-        },
-        1024: { // Pantallas grandes
-          slidesPerView: 3,
-          spaceBetween: 0,
-        },
-      }}
-      className="mySwiper p-6"
-    >
-      {picsTeam.map((picTeam, index) => (
-        <SwiperSlide key={index}>
-          <div className='flex flex-col items-center  '>
-            <Image
-              alt={picTeam.alt}
-              src={picTeam.src}
-              quality={100}
-              width={250} 
-              height={250} 
-              className="rounded-full shadow-lg" 
-            />
-            <div className='mt-3 text-black '>
-              <p className='font-semibold'>{picTeam.name}</p>
-              <p className='font-light text-gray-500'>{picTeam.job}</p>
-            </div>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className='md:m-4 p-4'>
+  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-4 p-4'>
+    {picsTeam.map((picTeam, index) => (
+      <div key={index} className='flex flex-col items-center'>
+        <Image
+          alt={picTeam.alt}
+          src={picTeam.src}
+          quality={100}
+          width={250}
+          height={250}
+          className="rounded-full shadow-lg"
+        />
+        <div className='mt-3 text-black'>
+          <p className='font-semibold'>{picTeam.name}</p>
+          <p className='font-light text-gray-500'>{picTeam.job}</p>
+        </div>
+      </div>
+    ))}
   </div>
+</div>
   )
 }
 
