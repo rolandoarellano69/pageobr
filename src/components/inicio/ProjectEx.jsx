@@ -45,15 +45,6 @@ function ProjectEx() {
               que te permitirán sentir la emocion de un nuevo hogar.
             </p>
           </div>
-          <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
-            <p className="text-base text-gray-600">Preventa desde</p>
-            <span className="font-bold text-[19px] text-gray-600">$5,450,541 MXN</span>
-            <Link href="/learn-more">
-              <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
-                Conocer más
-              </button>
-            </Link>
-          </div>
         </div>
       </div>
 

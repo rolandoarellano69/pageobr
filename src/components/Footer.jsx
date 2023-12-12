@@ -57,7 +57,8 @@ function Footer() {
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li>
             <Link
-              href="/"
+              href="https://www.facebook.com/obrgroupmex/
+             "
               rel="noreferrer"
               target="_blank"
               className="text-gray-200 transition hover:text-gray-700/75"
@@ -80,7 +81,7 @@ function Footer() {
 
           <li>
             <Link
-              href="/"
+              href="https://www.instagram.com/obr._group/"
               rel="noreferrer"
               target="_blank"
               className="text-gray-200 transition hover:text-gray-700/75"
@@ -103,7 +104,7 @@ function Footer() {
 
           <li>
             <Link
-              href="/"
+              href="https://mx.linkedin.com/company/obr-group-bienes-ra%C3%ADces"
               rel="noreferrer"
               target="_blank"
               className="text-gray-200 transition hover:text-gray-700/75"
