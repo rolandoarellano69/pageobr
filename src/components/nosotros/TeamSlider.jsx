@@ -31,7 +31,7 @@ function TeamSlider() {
 
       breakpoints={{
         640: { // Pantallas pequeñas
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 20,
         },
         768: { // Pantallas medianas
@@ -46,8 +46,8 @@ function TeamSlider() {
       className="mySwiper p-6"
     >
       {picsTeam.map((picTeam, index) => (
-        <SwiperSlide key={picTeam.name}>
-          <div className='flex flex-col items-center'>
+        <SwiperSlide key={index}>
+          <div className='flex flex-col items-center  '>
             <Image
               alt={picTeam.alt}
               src={picTeam.src}

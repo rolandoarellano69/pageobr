@@ -32,7 +32,7 @@ const iconsDev = [
 function IconsDesarrollos() {
   return (
     <>
-     <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[30rem] md:translate-y-[4rem]  lg:translate-y-[3rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] font-bold rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-500 z-20"> Desarrollos</div>
+     <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[30rem] md:translate-y-[4rem] lg:translate-y-[3rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] font-bold rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-500 z-20"> Desarrollos</div>
       <section className='bg-white text-black p-8 lg:p-8 translate-y-[30rem] lg:translate-y-[4rem]'>
         <main className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 ">
           {iconsDev.map((iconDev, index) => (
