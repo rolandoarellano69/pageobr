@@ -40,7 +40,7 @@ function TeamSlider() {
         },
         1024: { // Pantallas grandes
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 0,
         },
       }}
       className="mySwiper p-6"

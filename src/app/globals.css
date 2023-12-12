@@ -20,7 +20,10 @@ body{
   width: 95%;
   height: 95%;
 }
-
+swiper-container {
+  width: 80%;
+  height: 60%;
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
