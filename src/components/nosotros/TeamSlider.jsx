@@ -24,7 +24,7 @@ function TeamSlider() {
   return (
     <div className='md:m-4 p-4 '>
     <Swiper
-      slidesPerView={1}
+      slidesPerView={2}
       spaceBetween={10}
       navigation={true}
       modules={[Navigation]}

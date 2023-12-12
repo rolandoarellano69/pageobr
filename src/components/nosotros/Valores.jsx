@@ -22,7 +22,7 @@ function Valores() {
 
       <Swiper
         spaceBetween={10}
-        slidesPerView={1}
+        slidesPerView={3}
         navigation
         modules={[Navigation]}
         pagination={{ clickable: true }}
@@ -32,37 +32,38 @@ function Valores() {
 
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center '>
-            <Image src='/RESPONSABILIDAD.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/RESPONSABILIDAD.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary '>Responsabilidad</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center'>
-            <Image src='/HONESTIDAD.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/HONESTIDAD.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary '>Honestidad</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center'>
-            <Image src='/CONFIABILIDAD.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/CONFIABILIDAD.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary '>Confiabilidad</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center '>
-            <Image src='/SERVICIO.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/SERVICIO.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary '>Servicio</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center'>
-            <Image src='/COMPROMISO.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/COMPROMISO.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary'> Compromiso </p>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className='flex flex-col justify-center items-center'>
-            <Image src='/PASION.png' alt="House" width={70} height={70} quality={100} className='rounded-full p-4' />
+            <Image src='/PASION.png' alt="House" width={200} height={200} quality={100} className='rounded-full p-4' />
             <p className='text-center font-bold mb-2 text-secondary'> Pasión </p>
           </div>
         </SwiperSlide>
