@@ -60,12 +60,12 @@ function ProjectAbout2() {
             quality={100}
             className="z-0 object-cover bg-slate-400"
           />
-          <div className="absolute -top-[12rem] left-[35%] transform translate-y-1/2 z-10">
+          <div className="absolute -top-[11rem] left-[35%] transform translate-y-1/2 z-10">
             <Image
               src="/LOGO-01.png"
               alt="Logo del proyecto Aureo"
               quality={100}
-              width={650}
+              width={550}
               height={200}
             />
           </div>
@@ -81,7 +81,7 @@ function ProjectAbout2() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             <p className="text-sm">Preventa desde</p>
             <span className="font-bold text-[19px] text-gray-200">$5,397,600 MXN</span>
-            <Link href="/learn-more">
+            <Link href="https://residencialaureo.com/inicio">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -120,7 +120,7 @@ function ProjectAbout2() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             <p className="text-sm">Preventa desde</p>
             <span className="font-bold text-[19px] text-gray-200">$5,450,541 MXN</span>
-            <Link href="/learn-more">
+            <Link href="https://platinumresidencial.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -160,7 +160,7 @@ function ProjectAbout2() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             <p className="text-sm">Preventa desde</p>
             <span className="font-bold text-[19px] text-gray-200">$5,450,541 MXN</span>
-            <Link href="/learn-more">
+            <Link href="https://jaderesidencial.com.mx/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>
@@ -201,7 +201,7 @@ function ProjectAbout2() {
           <div className=" flex flex-col gap-y-2 items-center justify-center pr-10">
             <p className="text-sm">Preventa desde</p>
             <span className="font-bold text-[19px] text-gray-200">$1,477,351 MXN</span>
-            <Link href="/learn-more">
+            <Link href="https://torresdelcolorado.com/">
               <button className="bg-gray-100 font-bold text-gray-500 border-2 border-gray-600 rounded-3xl px-10 py-3 transition duration-300 ease-in-out">
                 Conocer más
               </button>

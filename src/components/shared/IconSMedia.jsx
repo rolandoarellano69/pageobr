@@ -4,7 +4,7 @@ import { RiFacebookBoxFill, RiInstagramFill, RiLinkedinBoxFill } from "react-ico
 export const IconSMedia = () => {
   return (
     <div className='  absolute justify-center top-[2.5rem] gap-4 right-[3rem] items-center mr-[7rem] flex flex-row'>
-      <Link href="OBR GROUP	https://www.facebook.com/obrgroupmex/">
+      <Link href="https://www.facebook.com/obrgroupmex/">
         <RiFacebookBoxFill className='text-lg ' />
       </Link>
       <Link href="https://www.instagram.com/obr._group/" >
