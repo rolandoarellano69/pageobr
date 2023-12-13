@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 function Footer() {
   return (
-    <footer className="bg-primary">
+    <footer className="bg-primary mt-[2rem]">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
           <Image src={'/logogtipo OBR versiones de color-03-02.png'} alt="House" width={150} height={200} />

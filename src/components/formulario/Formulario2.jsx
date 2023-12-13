@@ -17,7 +17,7 @@ export const Formulario2 = () => {
 
   return (
     <>
-    <div className='bg-secondary w-full h-[6rem]'></div>
+    <div className='bg-primary w-full h-[6rem]'></div>
     <section className='text-gray-600 body-font mt-[2rem]'>
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-5 py-0 ">
         

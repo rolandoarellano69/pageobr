@@ -21,7 +21,7 @@ function CardAbout() {
       transition={{ duration: 0.8 }}
       variants={variants}
       aria-labelledby="who-we-are-heading">
-      <div className='relative bg-primary py-4 lg:py-8 mx-4 md:mx-10 lg:mx-[20rem] rounded-xl -translate-y-8 z-20'>
+      <div className='relative bg-primary py-4 lg:py-8 mx-4 md:mx-10 lg:mx-[20rem] rounded-[4rem] -translate-y-8 z-20'>
         <div className='container mx-auto flex flex-col lg:flex-row items-center px-4 lg:px-9'>
           <div className='w-full flex justify-center mb-8'>
             <Image

@@ -46,13 +46,13 @@ function ProjectAbout2() {
   return (
     <>
 
-      <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[0rem] md:translate-y-[3rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-20">
+      <div className="relative mb-4 flex justify-center items-center border-2 gap-1 py-2 translate-y-[0rem] md:translate-y-[4rem] md:py-4 lg:py-8 mx-4 sm:mx-8 md:mx-16 lg:mx-[16rem] rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-20">
         Conoce nuestros <span className="text-gray-600 font-bold">proyectos</span>
       </div>
 
       {/*cards*/}
       <div className=" hidden lg:block relative overflow-hidden shadow-lg">
-        <div className=" h-[20vh] md:h-[60vh]">
+        <div className=" h-[20vh] md:h-[65vh]">
           <Image
             src="/ACCESO AUREO2 nochr.png"
             alt="Vista del acceso al proyecto residencial Aureo"
