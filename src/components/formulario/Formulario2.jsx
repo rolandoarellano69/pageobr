@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image';
 export const Formulario2 = () => {
   const iframeStyle = {
-    height: '70vh',
+    height: '85vh',
     width: '80%',
     border: 'none',
   };

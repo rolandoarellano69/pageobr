@@ -9,20 +9,19 @@ function Footer() {
           <Image src={'/logogtipo OBR versiones de color-03-02.png'} alt="House" width={150} height={200} />
         </div>
 
-        <p className="mx-auto mt-6 max-w-lg text-center leading-relaxed text-gray-200">
-          Plaza Carrousel, Blvd. Gustavo Díaz Ordaz 15602-Loc LA 22
-        </p>
-        <p className="mx-auto mt-6 max-w-lg text-center leading-relaxed text-gray-200">
-          664 338 52 10
-        </p>
+        <div className="text-center text-gray-200 mt-6">
+          <p className="max-w-md mx-auto leading-relaxed">
+            Plaza Carrousel, Blvd. Gustavo Díaz Ordaz 15602-Loc LA 22
+          </p>
+          <p className="mt-4">
+            664 338 52 10
+          </p>
+          <p className="mt-4">
+            Lunes a Viernes 9:00 a.m - 6:00 p.m <br /> Sábado 9:00 a.m - 2:00 p.m
+          </p>
+        </div>
 
-        <p className="mx-auto mt-6 max-w-lg text-center leading-relaxed text-gray-200">
-        Lunes a Viernes 9:00 a.m - 6:00 p.m <br /> Sábado 9:00 a.m - 2:00 p.m
-        </p>
-
-
-
-        <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+        <ul className="mt-8 flex flex-wrap justify-center gap-4">
           <li>
             <Link className="text-gray-200 transition hover:text-gray-700/75" href="/">
               Inicio
@@ -54,7 +53,7 @@ function Footer() {
           </li>
         </ul>
 
-        <ul className="mt-12 flex justify-center gap-6 md:gap-8">
+        <ul className="mt-8 flex justify-center gap-4">
           <li>
             <Link
               href="https://www.facebook.com/obrgroupmex/

@@ -23,7 +23,7 @@ function Hero() {
             loop
             muted
             src='/video/INTRO PAG WEB  VERTICAL h264.mp4'
-            className=' block md:hidden object-cover h-screen '
+            className=' block md:hidden object-fill h-[93vh] '
           >
           </video>
         </div>

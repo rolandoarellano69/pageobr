@@ -56,8 +56,8 @@ function IconsDesarrollos() {
                     <Image
                       alt={iconDev.alt}
                       src={iconDev.srcIcon}
-                      width={400}
-                      height={300}
+                      width={300}
+                      height={0}
                       className='rounded-[6rem]' />
                   </div>
                   <Image

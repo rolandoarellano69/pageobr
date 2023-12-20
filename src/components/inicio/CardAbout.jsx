@@ -33,7 +33,7 @@ function CardAbout() {
               className='object-cover w-full h-auto' />
           </div>
           <div className='w-full'>
-            <h2 id="who-we-are-heading" className="text-lg md:text-xl lg:text-3xl font-bold text-center text-gray-100 mb-4">¿QUIENES SOMOS?</h2>
+            <h2 id="who-we-are-heading" className="text-lg md:text-xl lg:text-3xl font-bold text-center text-gray-100 mb-4">¿QUIÉNES SOMOS?</h2>
             <p className="text-center lg:text-lg text-gray-200 mb-8">
               Somos una desarrolladora Inmobiliaria en constante crecimiento con diversos desarrollos en Tijuana B.C., en zonas estratégicas y privilegiadas. Nuestros proyectos están llamados a convertirse en referentes.
             </p>
