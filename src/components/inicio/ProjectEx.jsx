@@ -4,9 +4,9 @@ import Link from 'next/link'
 function ProjectEx() {
   return (
     <>
-    <div className="relative flex container mx-auto -translate-y-[3rem] justify-center items-center border-2 gap-1 py-2 md:py-4 lg:py-8 rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-0">
-  Proyectos de  <span className="text-gray-600 font-bold">  éxito</span>
-</div>
+      <div className="relative flex container mx-auto -translate-y-[1rem] justify-center items-center border-2 gap-1 py-2 md:py-4 lg:py-8 rounded-[3rem] bg-white text-xs sm:text-sm md:text-lg lg:text-3xl text-gray-900 z-0">
+        Proyectos de  <span className="text-gray-600 font-bold">  éxito</span>
+      </div>
 
       <div className="  hidden md:block relative overflow-hidden shadow-lg">
         <div className=" h-[40vh] md:h-[70vh] w-full">
@@ -48,6 +48,17 @@ function ProjectEx() {
         </div>
       </div>
 
+      <section className="mt-[.5rem] overflow-hidden bg-transparent">
+        <div className=' relative flex  lg:hidden h-[20rem] '>
+          <Image
+            src='/RESIDENCIALES-10.png'
+            alt='vista de romeo'
+            fill
+            quality={100}
+            className="object-contain"
+          />
+        </div>
+      </section>
     </>
   )
 }

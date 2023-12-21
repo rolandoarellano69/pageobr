@@ -12,7 +12,7 @@ import '../../app/globals.css';
 
 
 const picsTeam = [
-  { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Coordinadora ed Brokers' },
+  { src: '/VERÓNICA-VELÁZQUEZ_Mesa-de-trabajo-1.webp', alt: 'Verónica Velázquez', name: 'Verónica Velázquez', job: 'Coordinadora de Brokers' },
   { src: '/FEDERICO-ARMENTA_Mesa-de-trabajo-1.webp', alt: 'Federico Armenta', name: 'Federico Armenta', job: 'Asesor de Ventas' },
   { src: '/MARÍA-ELENA-MONTAÑO_Mesa-de-trabajo-1.webp', alt: 'María Elena Montaño', name: 'María Elena Montaño', job: 'Asesora de Ventas' },
   { src: '/NESTOR-CORTÉS.webp', alt: 'Nestor Cortés', name: 'Nestor Cortés', job: 'Asesor de Ventas' },
